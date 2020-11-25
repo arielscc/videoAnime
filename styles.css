@@ -148,14 +148,14 @@ footer {
 }
 footer p {
   margin: 0.5rem;
-  color: #22046f;
+  color: white;
 }
 footer i {
   border-bottom: 1px dashed;
 }
 
 footer a {
-  color: #22046f;
+  color: #db6400;
   font-weight: bold;
 }
 
