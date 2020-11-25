@@ -1,6 +1,6 @@
-# Proyecto Curso de Optimización Web Platzi
+# Proyecto de Optimización Web.
 
-Curso de optimización web dictado por [@jonalvarezz](https://twitter.com/jonalvarezz) para [Platzi](https://platzi.com)
+Proyecto de videos de anime para optimizar
 
 ### 🚀 Optimizaciones aplicadas
 
@@ -23,5 +23,3 @@ Curso de optimización web dictado por [@jonalvarezz](https://twitter.com/jonalv
     ```
 
     El sitio estará disponible en http://localhost:8080.
-
-    Happy hacking!
