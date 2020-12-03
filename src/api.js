@@ -1,7 +1,7 @@
 import _ from 'lodash'
 
 const BASE_URL = 'https://kitsu.io/api/edge'
-const PER_PAGE = 12
+const PER_PAGE = 10
 
 const checkStatus = response => {
   if (response.ok) {

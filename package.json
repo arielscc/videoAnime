@@ -1,8 +1,8 @@
 {
-  "name": "platzi-optimizacion-web",
+  "name": "rendimiento-web",
   "version": "0.1.0",
-  "description": "Proyecto del curso de Optimizacion Web de Platzi",
-  "author": "@jonalvarezz",
+  "description": "Proyecto inicial de mejoras en el rendimiento",
+  "author": "@arielscc",
   "scripts": {
     "start": "npm run dev",
     "dev": "webpack-dev-server",
