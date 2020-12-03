@@ -1,4 +1,4 @@
-# Proyecto de Optimización Web.
+# Proyecto de Optimización Web
 
 Proyecto de videos de anime para optimizar
 
