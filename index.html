@@ -10,12 +10,9 @@
     <link rel="dns-prefetch" href="https://fonts.gstatic.com/" />
     <link rel="preconnect" href="https://kitsu.io/" crossorigin />
     <link rel="dns-prefetch" href="https://kitsu.io/" />
+    <link rel="preconnect" href="https://ajax.googleapis.com" crossorigin />
+    <link rel="dns-prefetch" href="https://ajax.googleapis.com" />
 
-    <!-- Fonts -->
-    <link
-      href="https://fonts.googleapis.com/css?family=Muli&display=block"
-      rel="stylesheet"
-    />
     <!-- Styles -->
     <link async rel="stylesheet" href="/styles.css" />
     <link
@@ -66,5 +63,14 @@
         <a href="https://kitsu.io" target="_blank">Kitsu</a>
       </p>
     </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+      WebFont.load({
+        google: {
+          families: ['Muli'],
+        },
+      })
+    </script>
   </body>
 </html>
