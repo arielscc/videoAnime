@@ -46,7 +46,7 @@ input[type='submit'] {
   color: white;
 }
 
-header {
+.header {
   align-items: center;
   color: white;
   display: flex;
@@ -56,21 +56,15 @@ header {
   width: 100%;
 }
 
-.logo {
+.header__logo {
   margin-left: 30px;
-  width: 200px;
-  height: 61px;
-  background-image: url(/assets/logo.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
 }
 
-.menu {
+.header__menu {
   margin-right: 30px;
 }
 
-.menu ul {
+.header__menu ul {
   display: none;
   list-style: none;
   margin: 0px 0px 0px -14px;
@@ -80,31 +74,31 @@ header {
   text-align: right;
 }
 
-.menu:hover ul,
+.header__menu:hover ul,
 ul:hover {
   display: block;
 }
 
-.menu li {
+.header__menu li {
   margin: 10px 0px;
 }
 
-.menu li a {
+.header__menu li a {
   color: white;
   text-decoration: none;
 }
 
-.menu li a:hover {
+.header__menu li a:hover {
   text-decoration: underline;
 }
 
-.menu > div {
+.header__menu div {
   align-items: center;
   display: flex;
   cursor: pointer;
 }
 
-.menu > div > img {
+.header__menu > div > img {
   margin-right: 8px;
   width: 40px;
 }
