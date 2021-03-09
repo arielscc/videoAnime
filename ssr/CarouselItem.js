@@ -20,6 +20,8 @@ const Controls = ({ slug, youtubeVideoId }) =>
       h('img.carousel-item__details--img', {
         src: 'assets/play-icon.png',
         alt: 'Play',
+        width: '30px',
+        height: '30px',
       })
     ),
     h(
@@ -33,6 +35,8 @@ const Controls = ({ slug, youtubeVideoId }) =>
       h('img.carousel-item__details--img', {
         src: 'assets/plus-icon.png',
         alt: 'More info',
+        width: '30px',
+        height: '30px',
       })
     )
   )
@@ -51,6 +55,8 @@ const CarouselItem = ({
       alt: title,
       'data-src': imageUrl,
       'data-background-image': '/assets/carousel-item-placeholder.png',
+      width: '200px',
+      height: '250px',
     }),
     h(
       'div.carousel-item__details',
