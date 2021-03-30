@@ -288,6 +288,7 @@ footer a:hover {
 
 .carousel-item__details--img {
   width: 20px;
+  height: 20px;
 }
 
 .carousel-item__details--title {
