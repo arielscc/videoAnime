@@ -4,28 +4,23 @@ Proyecto de videos de anime para optimizar
 
 ### 🚀 Optimizaciones aplicadas
 
-1. Elimina bloqueo en etiquetas `script`.
-1. Convierte los estilos en Mobile First.
-1. Carga los estilos para Desktop con baja prioridad en Móvil.
-1. Agiliza HTTP handshake con otros dominios de recursos.
-1. Reduce Paints en la animacion hover de los items del carousel.
-1. Reduce complejidad de selectores CSS.
-1. Desbloquea la carga del logo.
-1. Evita texto invisible durante la carga (FOIT).
-1. Reduce el tamaño del logo en 90%.
-1. Minimiza requests HTTP con SVG.
-1. Aplica Lazy load para las imágenes.
-1. Evita _Layout Shifts_.
-1. Compila el código para producción.
-1. Utiliza un servidor para producción.
-1. Agrega analizador del bundle: `npm run dev|build -- --analyze`
-1. Uso conciente de Tree Shaking.
-1. Mejora TTI por 5 seg.
-1. Reduce el tamaño del Bundle un 70% gzipped.
-1. Divide el bundle en dos archivos (code splitting)
-1. Aplica lazy load para la librería del modal.
-1. Renderiza el contenido principal desde nuestro propio servidor node (SSR).
-1. Pre-renderiza el contenido principal de forma estática (SSG).
+1. Recursos que bloquean el navegador
+1. Priorización de recursos CSS.
+1. Preloading y prefetching de recursos externos.
+1. Paint y Layout del Critical Render Path
+1. Bloqueo y complejidad en selectores
+1. Web fonts
+1. Redimensión y compresión de imágenes.
+1. Imágenes SVG.
+1. Lazy Loading para imágenes
+1. Responsive Loading de Imágenes
+1. Configuración de un entorno de producción.
+1. Análisis del bundle final
+1. Uso del Tree Shaking
+1. Code Splitting
+1. Lazy Module Loading
+1. Server Side Render
+1. Cacheo y Service Workers.
 
 ### 🤖 Guía Rápida
 
