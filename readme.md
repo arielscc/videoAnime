@@ -1,8 +1,8 @@
-# Proyecto de Optimización Web
+# Proyecto de mejoras de Rendimiento
 
-Proyecto de videos de anime para optimizar
+Proyecto de videos: 'Video Anime'
 
-### 🚀 Optimizaciones aplicadas
+### 🚀 Técnicas y procedimientos WPO que mejoran el Rendimiento
 
 1. Recursos que bloquean el navegador
 1. Priorización de recursos CSS.
